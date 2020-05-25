@@ -6,6 +6,8 @@ Furthermore, the program can decode hidden files from the same image format.
 The program can encode any file format into 24-bit BMP image.
 The only constraint is that the image to be used for hiding must be at least 8 times bigger in size than the file to be hidden.
 
+The repository contains some test files in the TestFiles folder, but due to github space limitations I could not upload the largest test file here. This is a link to a very large BMP image I used for testing: https://www.dropbox.com/s/7dzul8cbq9ergwl/payload-big-house.bmp?dl=0
+
 ## How to use it
 The program supports the following commands:
 - <b>encode &lt;file-used-for-encoding&gt; &lt;file-to-be-encoded&gt; &lt;output-file&gt;</b>
